@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import kendallPfp from './assets/Kendallpfp.jpg';
+import kendallPfp from './assets/Kendallpfp.jpg'; 
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
