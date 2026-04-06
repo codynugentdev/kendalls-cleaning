@@ -431,6 +431,9 @@ export default function KendallsCleaning() {
           <span style={styles.footerSub}>Cleaning Services</span>
         </div>
         <div style={styles.footerCopy}>© 2025 Kendall's Cleaning Services · Richmond, KY</div>
+<div style={{ ...styles.footerCopy, fontSize: 12, opacity: 1, marginTop: 4, color: 'rgba(255,255,255,0.55)' }}>
+  Website inquiries: <a href="mailto:cody.nugent.dev@gmail.com" style={{ color: '#7BAE7F' }}>cody.nugent.dev@gmail.com</a>
+</div>
       </footer>
     </div>
   );
